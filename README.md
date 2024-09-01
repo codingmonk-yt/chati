@@ -366,3 +366,63 @@ module.exports = {
   }
 }
 ```
+
+
+### Chat List
+
+```jsx
+
+import User01 from "../../images/user/user-01.png";
+import User02 from "../../images/user/user-02.png";
+import User03 from "../../images/user/user-03.png";
+import User04 from "../../images/user/user-04.png";
+import User05 from "../../images/user/user-05.png";
+import User06 from "../../images/user/user-06.png";
+import User07 from "../../images/user/user-07.png";
+import User08 from "../../images/user/user-08.png";
+
+const List = [
+  {
+    imgSrc: User01,
+    name: "Henry Dholi",
+    message: "I cam across your profile and...",
+  },
+  {
+    imgSrc: User02,
+    name: "Mariya Desoja",
+    message: "I like your confidence 💪",
+  },
+  {
+    imgSrc: User03,
+    name: "Robert Jhon",
+    message: "Can you share your offer?",
+  },
+  {
+    imgSrc: User04,
+    name: "Cody Fisher",
+    message: `I'm waiting for you response!`,
+  },
+  {
+    imgSrc: User05,
+    name: "Jenny Wilson",
+    message: "I cam across your profile and...",
+  },
+  {
+    imgSrc: User06,
+    name: "Robert Jhon",
+    message: "Can you share your offer?",
+  },
+  {
+    imgSrc: User07,
+    name: "Cody Fisher",
+    message: `I'm waiting for you response!`,
+  },
+  {
+    imgSrc: User08,
+    name: "Jenny Wilson",
+    message: "I cam across your profile and...",
+  },
+];
+
+
+```
